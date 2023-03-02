@@ -12,3 +12,5 @@ class ApiError extends Error {
     static internal = (message) => new ApiError(500, message)
 
 }
+
+module.exports = ApiError
